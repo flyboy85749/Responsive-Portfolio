@@ -1,0 +1,273 @@
+/* CSS File for my Portfolio Page 
+
+Author: Bill Hall
+Website: https://flyboy85749.github.io/Basic-Portfolio
+color for headings and backgrounds #4aaaa5
+regular font color for everything except headers #777777
+main header background color #ffffff
+main header border color #cccccc
+footer background color #666666
+main content background color #ffffff
+main content border color #dddddd
+used for headings font-family: 'Georgia', Times, 'Times New Roman', serif;
+for all except headings 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+*/
+
+body {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0;
+            font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+            font-size: 18px;
+            line-height: 150%;
+
+        }
+
+        li.current {
+            height: 67px;
+            text-decoration-line: underline;
+        }
+
+        #wrap {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+
+
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: Georgia, Times, 'Times New Roman', serif;
+        }
+
+        header {
+
+            border-bottom: 2px solid #cccccc;
+        }
+
+
+        header h1 {
+            width: 400px;
+            margin-left: 196px;
+            margin-bottom: 0;
+            color: #fff;
+            background-color: #4aaaa5;
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        header ul {
+            float: right;
+            width: 500px;
+            margin: 20px 210px 20px 0px;
+        }
+
+
+        #main {
+            padding: 30px;
+
+        }
+
+
+
+        #main h2 {
+            color: #4aaaa5;
+            border-bottom: 2px solid #cccccc;
+            padding: 5px 0px 30px 15px;
+        }
+
+
+        section {
+            margin: 30px 0px 60px 0px;
+            border: 1px solid #dddddd;
+
+        }
+
+        p {
+            color: #777777;
+        }
+
+        ul {
+            position: absolute;
+            top: 20px;
+            left: 850px;
+            list-style-type: none;
+            text-decoration: none;
+            height: 67px;
+            padding: 0px;
+        }
+
+        li {
+            
+            display: inline;
+        }
+
+        ul li a {
+            padding: 5px;
+            height: 67px;
+            color: #5F5C54;
+            font-size: 25px;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            background-color: aqua;
+        }
+
+        .image-home {
+            float: left;
+            box-shadow: 5px 10px 8px 5px #afadad;
+            margin: 10px 25px 10px 5px;
+        }
+
+        .image-1 {
+            float: left;
+            box-shadow: 5px 10px 8px 5px #888888;
+            margin: 10px 5px 30px 0px;
+        }
+
+        .image-1-credit {
+            position: relative;
+            top: 250px;
+            right: 300px;
+            color: #fff;
+            font-size: 12px;
+            
+        }
+
+        .image-2 {
+            float: right;
+            box-shadow: 5px 10px 8px 5px #888888;
+            margin: -18px 0px 30px 5px;
+        }
+
+        .image-2-credit {
+            position: relative;
+            top: 250px;
+            right: 30px;
+            color: #fff;
+            font-size: 12px;
+        }
+
+
+        .image-3 {
+            box-shadow: 5px 10px 8px 5px #888888;
+            margin: 0px 20px 20px 0px;
+        }
+
+        .image-3-credit {
+            position: relative;
+            top: -55px;
+            right: -105px;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        .image-4 {
+            float: right;
+            margin-top: -295px;
+            box-shadow: 5px 10px 8px 5px #888888;
+            
+        }
+
+        .image-4-credit {
+            position: relative;
+            top: -55px;
+            left: 390px;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        .image-5 {
+            box-shadow: 5px 10px 8px 5px #888888;
+            margin: -15px 615px 20px 0px;
+        }
+
+        .image-5-credit {
+            position: relative;
+            top: -55px;
+            left: 100px;
+            color: #fff;
+            font-size: 12px;
+            
+        }
+
+
+
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4aaaa5;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #B3A770;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: rgb(204, 189, 118, 20%);
+            padding: 20px;
+        }
+
+        pre {
+            color: #4aaaa5;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 18px;
+        }
+
+        footer {
+            height: 80px;
+            text-align: center;
+            padding-top: 30px;
+            background-color: #666666;
+            border-top: 8px solid #4aaaa5;
+        }
+
+        footer p {
+            color: #fff;
+        }
+
+        @media screen and (max-width: 980px) {
+           .container {
+            padding: 0px 10px 0px 0px;
+            }
+        }
+
+        @media screen and (max-width: 768px){
+           .container {
+            padding: 0px 192px 0px 0px;
+            }
+        }
+
+        @media screen and (max-width: 640px) {
+           header {
+                position: static;
+            }
+            .container {
+                padding: 0px 320px 0px 0px;
+                }
+        }
+            
+       
