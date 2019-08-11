@@ -28,11 +28,6 @@ li.current {
     text-decoration-line: underline;
 }
 
-
-
-
-
-
 h1,
 h2,
 h3,
@@ -73,6 +68,9 @@ header ul {
 .container {
     max-width: 960px;
     margin: 0 auto;
+    border-radius: 5px;
+    background-color: rgb(204, 189, 118, 20%);
+    padding: 20px;
 }
 
 
@@ -137,7 +135,7 @@ ul li a:hover {
     position: relative;
     top: 250px;
     right: 300px;
-    color: #fff;
+    color: rgb(61, 59, 59);
     font-size: 12px;
     
 }
@@ -151,8 +149,8 @@ ul li a:hover {
 .image-2-credit {
     position: relative;
     top: 250px;
-    right: 30px;
-    color: #fff;
+    left: 20px;
+    color: rgb(61, 59, 59);
     font-size: 12px;
 }
 
@@ -165,8 +163,8 @@ ul li a:hover {
 .image-3-credit {
     position: relative;
     top: -55px;
-    right: -105px;
-    color: #fff;
+    left: 105px;
+    color: rgb(61, 59, 59);
     font-size: 12px;
 }
 
@@ -180,8 +178,8 @@ ul li a:hover {
 .image-4-credit {
     position: relative;
     top: -55px;
-    left: 390px;
-    color: #fff;
+    left: 500px;
+    color: rgb(61, 59, 59);
     font-size: 12px;
 }
 
@@ -194,7 +192,7 @@ ul li a:hover {
     position: relative;
     top: -55px;
     left: 100px;
-    color: #fff;
+    color: rgb(61, 59, 59);
     font-size: 12px;
     
 }
@@ -227,11 +225,6 @@ input[type=submit]:hover {
     background-color: #B3A770;
 }
 
-.container {
-    border-radius: 5px;
-    background-color: rgb(204, 189, 118, 20%);
-    padding: 20px;
-}
 
 pre {
     color: #4aaaa5;
@@ -257,6 +250,7 @@ footer p {
         padding: 0 20px;
         max-width: 900px;
         }
+        
         .main {
         max-width: 420px;
         padding-top: 50px;
@@ -353,14 +347,23 @@ footer p {
         margin-left: 20px;
     }
 
+    /* trying to figure out why so much white space to the right side of page
+    when viewed with mobile devices */
+
     .container {
         max-width: 500px;
         padding: 0px;
-        margin: 0 auto;
+        margin-right: 0px;
     }
 
     .main {
-        height: auto;
+        width: 100%;
+        padding-right: 5px;
+        
+    }
+
+    #wrap {
+        width: 100%;
     }
 
     .col {
@@ -388,7 +391,7 @@ footer p {
     .image-2 {
         position: relative;
         top: 20px;
-        margin: 0px 45px 30px 0px;
+        margin: 0px 5px 30px 20px;
     }
 
     .image-3 {
@@ -400,7 +403,7 @@ footer p {
     .image-4 {
         position: relative;
         top: 50px;
-        margin: 10px 43px 20px 0px;
+        margin: 10px 5px 20px 20px;
     }
 
     .image-5 {
