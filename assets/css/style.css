@@ -14,7 +14,7 @@ for all except headings 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 */
 
 body {
-    max-width: 100%;
+    max-width: 980px;
     margin: 0 auto;
     padding: 0;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -44,7 +44,7 @@ header {
 
 header h1 {
     width: 400px;
-    margin-left: 200px;
+    margin-left: 15px;
     margin-bottom: 0;
     color: #fff;
     background-color: #4aaaa5;
@@ -217,27 +217,42 @@ footer p {
 
 
     @media only screen and (max-width: 980px) {
-        .container {
-        padding: 0 20px;
+        #container {
+        
         max-width: 900px;
         }
 
+        .image-1 .image-2 .image-3 .image-4 .image-5 {
+            width: 95%;
+            
+        }
+    .image-2 .image-4 .image-5 {
+        margin-left: -20px;
+    }
+
         .main {
         max-width: 420px;
-        padding-top: 50px;
+        margin: 0px;
+        padding: 0px;
         }
 
         p {
-           
-            padding-right: 60px;
+           width: 100%;
+            
         }
       header h1 {
+          width: 100%;
           margin-left: 10px;
       }  
       
     .about {
         margin: 0 auto;
     }   
+
+    .col {
+        margin: 0px;
+        padding: 0px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -246,26 +261,27 @@ footer p {
       width: 100%;
     }
 
-    .container {
+    #container {
+        display: flex;
         max-width: 700px;
         padding: 0px;
         margin: 10px;
         
     }
     header {
-        width: 70%;
-        margin-left: 20px;
+        width: 100%;
+        
     }
 
-    header h1 {
+    /* header h1 {
+        width: 90%;
         margin-left: 20px;
         margin-right: 100px;
-    }
+    } */
 
-    ul {
-        position: relative;
-        top: 10px;
-        left: 550px;
+    header ul {
+        float: left;
+        margin-left: 0px;
     }
 
     .current {
@@ -315,14 +331,15 @@ footer p {
 @media only screen and (max-width: 640px) {
     header {
         position: static;
-        width: 50%;
+        width: 100%;
         margin-left: 20px;
     }
 
     /* trying to figure out why so much white space to the right side of page
     when viewed with mobile devices */
 
-    .container {
+    #container {
+        font-size: 90%;
         max-width: 500px;
         padding: 0px;
         margin-right: 0px;
@@ -334,16 +351,16 @@ footer p {
         
     }
 
-    #wrap {
-        width: 100%;
-        
-    }
+   p {
+       width: 100%;
+   }
 
     .col {
         width: 100%;
     }
 
     header h1 {
+        width: 370px;
         margin-left: 20px;
         margin-right: 100px;
     }
@@ -351,8 +368,8 @@ footer p {
     
     ul {
         position: relative;
-        top: 10px;
-        left: 550px;
+        top: 0px;
+        left: 40px;
     }
 
     .image-1 {
@@ -389,9 +406,6 @@ footer p {
         margin-top: 30px;
     } 
 
-    .image-1-credit, .image-2-credit, .image-3-credit, .image-4-credit, .image-5-credit {
-        display: none;
-    }
-
+    
     
 }
