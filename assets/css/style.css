@@ -170,6 +170,24 @@ ul li a:hover {
     
 }
 
+.image-6 {
+    margin-top: 20px;
+    box-shadow: 5px 10px 8px 5px #888888;
+    
+}
+
+.image-7 {
+    margin: 20px 10px 10px 20px;
+    box-shadow: 5px 10px 8px 5px #888888;
+    
+}
+
+.image-8 {
+    margin-top: 20px;
+    box-shadow: 5px 10px 8px 5px #888888;
+    
+}
+
 
 input[type=text],
 select {
@@ -320,6 +338,24 @@ footer p {
         float: left;
        
         margin: 20px 10px 50px 20px;
+    }
+
+    .image-6 {
+        float: right;
+      
+        margin: 10px 43px 20px 0px;
+    }
+
+    .image-7 {
+        float: right;
+      
+        margin: 10px 43px 20px 0px;
+    }
+
+    .image-8 {
+        float: right;
+      
+        margin: 10px 43px 20px 0px;
     }
 
     .about {
