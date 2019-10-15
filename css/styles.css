@@ -1,5 +1,15 @@
 .me {
     float: left;
-    margin: 20px;
+    margin: 10px;
     box-shadow: 5px 10px 8px 5px #afadad;
+}
+
+.btn-primary {
+    margin: 10px;
+}
+
+@media (screen) {
+    .caption {
+        display: none;
+    }
 }
