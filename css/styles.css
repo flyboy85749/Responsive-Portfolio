@@ -8,6 +8,10 @@
     margin: 10px;
 }
 
+.btn-xl {
+    margin: 10px;
+}
+
 @media only screen and (max-width: 640px) {
     .mb-0 {
         display: none;
