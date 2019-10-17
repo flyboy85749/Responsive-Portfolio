@@ -8,8 +8,8 @@
     margin: 10px;
 }
 
-@media (screen) {
-    .caption {
+@media only screen and (max-width: 640px) {
+    .mb-0 {
         display: none;
     }
 }
