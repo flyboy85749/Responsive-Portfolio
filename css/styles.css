@@ -1,11 +1,21 @@
 .me {
     float: left;
-    margin: 10px;
+    margin: 20px;
     box-shadow: 5px 10px 8px 5px #afadad;
 }
 
 .btn-primary {
     margin: 10px;
+}
+
+p {
+    text-align: left;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+p.lead mb-5 {
+    margin-bottom: 0px;
 }
 
 .btn-xl {
