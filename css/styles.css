@@ -22,6 +22,14 @@ p.lead mb-5 {
     margin: 10px;
 }
 
+.mb-0 {
+    display: none;
+}
+
+p:hover .mb-0{
+display: inline;
+}
+
 @media only screen and (max-width: 640px) {
     .mb-0 {
         display: none;
