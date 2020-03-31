@@ -22,13 +22,17 @@ p.lead mb-5 {
     margin: 10px;
 }
 
-.mb-0 {
-    display: none;
+.caption-content {
+    opacity: 20%;
+    color: yellow;
 }
 
-p:hover .mb-0{
-display: inline;
+.caption-content :hover{
+    color: #fff;
 }
+
+
+
 
 @media only screen and (max-width: 640px) {
     .mb-0 {
