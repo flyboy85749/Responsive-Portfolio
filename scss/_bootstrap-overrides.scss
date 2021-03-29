@@ -1,9 +1,9 @@
 a {
-  color: $primary;
+  color: $white;
   &:hover,
   &:focus,
   &:active {
-    color: darken($primary, 10%);
+    color: lighten($white, 90%);
   }
 }
 
