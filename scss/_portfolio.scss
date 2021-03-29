@@ -8,13 +8,14 @@
     display: flex;
     height: 100%;
     width: 100%;
-    background-color: fade-out($gray-900, 0.8);
+    background-color: fade-out($black, 0.2);
     position: absolute;
     top: 0;
     bottom: 0;
     z-index: 1;
     .caption-content {
       color: $white;
+      background: #000;
       margin: auto 2rem 2rem;
       h2 {
         font-size: 0.8rem;
