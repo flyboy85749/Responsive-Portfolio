@@ -14,6 +14,10 @@ p {
     margin-left: 20px;
 }
 
+#content {
+    background-color: #e1ae1a;
+}
+
 p.lead mb-5 {
     margin-bottom: 0px;
 }

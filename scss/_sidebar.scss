@@ -25,8 +25,6 @@
   list-style: none;
 }
 
-.sidebar-nav li {
-}
 
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
@@ -98,8 +96,8 @@
   &:hover {
     background: $gray-800;
   }
-  &.active {
-    // background-color: $white;
-    // color: $gray-900;
+  &:active {
+  background-color: $white;
+  color: $gray-900;
   }
 }
